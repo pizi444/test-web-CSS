@@ -11,8 +11,8 @@ body {
 /* Header/logo Title */
 .header {
   padding: 110px;
-  text-align: left;
-  background-image: url("images\landscape-test-css.jpg");
+  text-align: left; /*8
+  background-image: url("images\landscape-test-css.jpg"); /*7
 }
 /* Increase the font size of the heading */
 .header h1 {
@@ -23,9 +23,9 @@ body {
 .navbar {
   overflow: hidden;
   background-color: #333;
-  position: static;
+  position: static; /*9
   top: 0;
-  text-decoration-color: rgb(92, 25, 155);
+  text-decoration-color: rgb(92, 25, 155); /*1
 }
 .active { background-color: deepskyblue; }
 /* Style the navigation bar links */
@@ -46,7 +46,7 @@ body {
 
 /* Change color on hover */
 .navbar a:hover {
-  background-color: #ddd;
+  background-color: #2bbce9; /*2
   color: black;
 }
 
@@ -106,7 +106,7 @@ body {
 
 /* Styles for the post image */
 img {
-  max-width: 10%;
+  max-width: 10%; /*10
   
 }
 
@@ -125,5 +125,5 @@ img {
   }
 }
 .footer{ background-color: black ;
-height: max-content; margin:0px}
+height: max-content; margin:0px} /*3 4 /*5
 
