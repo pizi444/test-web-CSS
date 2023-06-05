@@ -5,16 +5,15 @@
 /* Style the body */
 body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin: 0;
+  margin: 20px;
 }
 
 /* Header/logo Title */
 .header {
   padding: 110px;
-  text-align: center;
-  background-image: url("./images/landscape.jpg");
+  text-align: left;
+  background-image: url("images\landscape-test-css.jpg");
 }
-
 /* Increase the font size of the heading */
 .header h1 {
   font-size: 50px;
@@ -24,15 +23,17 @@ body {
 .navbar {
   overflow: hidden;
   background-color: #333;
-  position: sticky;
+  position: static;
   top: 0;
+  text-decoration-color: rgb(92, 25, 155);
 }
-
+.active { background-color: deepskyblue; }
 /* Style the navigation bar links */
 .navbar a {
   float: left;
   display: block;
-  color: white;
+  color: rgb(0, 0, 0); 
+  color
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
@@ -65,7 +66,8 @@ body {
 .side {
   flex: 30%;
   background-color: #f1f1f1;
-  padding: 20px;
+  padding: 30px;
+  color: rgb(22, 19, 226);
 }
 
 /* Main column */
@@ -93,7 +95,7 @@ body {
   margin-bottom: 20px;
   padding: 20px;
   background-color: #fff;
-  border: 1px solid #ccc;
+  border: 5px solid #ccc;
 }
 
 /* Styles for the post heading */
@@ -104,7 +106,8 @@ body {
 
 /* Styles for the post image */
 img {
-  max-width: 100%;
+  max-width: 10%;
+  
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
@@ -121,3 +124,6 @@ img {
     width: 100%;
   }
 }
+.footer{ background-color: black ;
+height: max-content; margin:0px}
+
